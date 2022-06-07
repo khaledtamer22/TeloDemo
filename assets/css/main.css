@@ -1,0 +1,271 @@
+body{
+	background-color: #000;
+	/*font-family: gotham;			*/
+}
+main{
+	/*font-family: gotham;*/
+}
+
+
+.slider-dash-active{
+	font-family:gotham;
+}
+
+.nav-links li a{
+	font-family:gotham-medium;
+}
+
+
+.font-gotham{
+	font-family:gotham;	
+}
+
+.font-gotham-meduim{
+	font-family:gotham-medium;	
+}
+
+.font-light{
+	color: #fff;
+}
+
+
+.color-grey{
+	color:grey;
+}
+
+.width-40{
+	width:40%;
+}
+.width-80{
+	width: 80%;
+}
+
+.mynav{
+	background-color: #fff;
+}
+
+.navlinks:focus{
+	border: transparent;
+}
+
+@media(min-width: 1024px){
+	.mynav{
+		padding:0px 5% 0px 5%;
+	}
+}
+	
+	.navbar-collapse{
+		background-color
+	}
+
+	.nav-links{
+		margin-left: 5%
+	}
+
+	.nav-links li a{
+		color: #000;
+		font-weight: 500;
+	}
+
+	.active{
+		color: red;
+	} 
+
+	.rounded-img{
+		border-radius: 50%;
+	}		
+	.nav2{
+		padding-right: 10% !important;
+		padding-left: 6% !important;
+		background-color: #000;
+		height: 80px;
+		border-top:1px solid red;
+		border-bottom:1px solid red;
+	}
+	@media (max-width: 1024px){
+		.nav2{
+			display: none;	
+		}
+	}
+
+	.nav2-ul li a{
+		color: #fff !important;
+	}
+
+
+	.btn-pre-order{
+		background-color: red;
+		color: #fff !important;
+		border-radius: 30px;
+		margin: 2% 0px 8px 0px;
+		padding: 8px 30px;
+	}
+
+	.btn-read-more{
+		background-color: transparent;
+		color: #fff;
+		border: 1px solid red;
+		border-radius: 30px;
+		margin: 2% 0px 8px 0px;
+		padding: 8px 30px;
+	}
+
+
+	.slider-dashes div{
+		margin-right: 50px;
+		letter-spacing: 7px;
+		color: #000;
+		border-bottom: 1px solid #fff;
+		padding-bottom: 7px;
+		width:15px;
+	}
+	.slider-dashes{
+		margin-top: 5%;
+
+	}
+
+	.slider-dash-active{
+		margin-bottom: 2px;
+		color: #fff !important;
+		border-bottom: 1px solid red !important;
+		padding-bottom: 7px;
+		width: 100% !important;
+	}
+
+	.paragraph-1{
+		color: #fff;
+		margin-top:10%;
+	}
+	
+	.paragraph-1 h1{
+		font-size: 70px;
+		font-weight: bold;
+	}
+
+	.paragraph-1 h4{
+		color: grey;
+	}
+
+	.FIN{
+		margin-top:10%;
+		direction: ltr;
+	}
+
+	@media(max-width: 992px){
+		.imgtext{
+			margin-top: 100px;
+		}
+			.nav-links {
+		margin-left: 0px !important;
+		}
+
+		.logo{
+			padding-top: 16px;
+		}
+		.cart , .search{
+			display: inline-flex;
+			}
+	}
+
+	.absolute{
+		position: absolute;
+		left: 45%;
+		margin-top: 25%
+		
+	}
+
+	.bgtext{
+		color: #fff;
+		text-transform: uppercase;
+		  text-align: center;
+		  font-size: 16px;
+	}
+
+	@media(min-width:960px){
+
+	.footer{
+		padding:0px 100px;
+	}
+
+	.footer-hr{
+		padding-top: 200px;
+		border-bottom: 0.1px solid grey;
+	}
+
+}
+
+
+	@media(max-width:767px){
+
+	.footer{
+		margin-left: 20px !important;
+	}
+
+	img:not(.play-img,.telo-games-footer){
+		width: 100% !important;
+	}
+	.performance-desktop{
+		display: none;
+	}
+
+	.performance-phone{
+		display: block;
+	}
+
+	.paragraph-1 h1{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: left;
+	}
+	.paragraph-1 h4{
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.align-left-mobile{
+		text-align: left !important;
+	}
+
+	.child-1 {
+		margin-top: 5%;
+	}
+
+
+
+	.child-2 {
+		margin-top: 10%;
+	}
+
+
+	.child-3 {
+		margin-top: 10%;
+	}
+
+}
+
+	@media(min-width:767px){
+
+
+
+	.performance-desktop{
+		display: block;
+	}
+
+	.performance-phone{
+		display: none;
+	}
+	}
+	.footer{
+		margin-top: 150px ;
+	}
+
+	.footer-icons i{
+		margin-right: 20px;
+		font-size: 20px;
+		color: #fff;
+	}
+	
+	a:hover{
+		color:grey !important;
+		text-decoration: none;
+	}

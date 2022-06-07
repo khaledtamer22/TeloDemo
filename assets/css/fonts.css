@@ -1,0 +1,10 @@
+@font-face {
+  font-family: gotham;
+  src: url(../fonts/gotham/HeliosRegular.otf);
+}
+
+
+@font-face {
+  font-family: gotham-medium;
+  src: url(../fonts/gotham/Gotham-Medium.otf);
+}
